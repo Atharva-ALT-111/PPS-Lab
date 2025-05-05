@@ -1,0 +1,6 @@
+year = int(input("Enter year: "))
+match year:
+  case year if year%4==0:
+    print("Leap year")
+  case _:
+    print("Not a leap year")
